@@ -25,8 +25,20 @@ class Devnotes < Formula
   end
 
   def install
-    bin.install "devnotes"
+  if OS.mac?
+    if Hardware::CPU.arm?
+      bin.install "devnotes-darwin-arm64" => "devnotes"
+    else
+      bin.install "devnotes-darwin-amd64" => "devnotes"
+    end
+  else
+    if Hardware::CPU.arm?
+      bin.install "devnotes-linux-arm64" => "devnotes"
+    else
+      bin.install "devnotes-linux-amd64" => "devnotes"
+    end
   end
+end
 
   def post_install
     (var/"devnotes").mkpath
