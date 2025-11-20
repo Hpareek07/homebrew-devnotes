@@ -6,21 +6,21 @@ class Devnotes < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Hpareek07/homebrew-devnotes/releases/download/v1.0.0/devnotes-darwin_v1.0.0-arm64.tar.gz"
-      sha256 "21b984ee934afb8271b8547724cd913350c2cd34903110e92f7e59f56dba737f"
+      url "https://github.com/Hpareek07/homebrew-devnotes/releases/download/v1.1.0/devnotes-v1.1.0-darwin-arm64.tar.gz"
+      sha256 "235128c2b6ef4a805fbc54c104db0c3bf8f066cf23ae528ca886c0832594dea3"
     else
-      url "https://github.com/Hpareek07/homebrew-devnotes/releases/download/v1.0.0/devnotes-darwin_v1.0.0-amd64.tar.gz"
-      sha256 "a05168be51efceec6b184e5a7c7cf4fc282d7231e80056ec3636e65a072234d8"
+      url "https://github.com/Hpareek07/homebrew-devnotes/releases/download/v1.1.0/devnotes-v1.1.0-darwin-amd64.tar.gz"
+      sha256 "a7bc278a61a887cfaeb04545f1462b719bd2d0628fbaa01da0866642e1e0c749"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Hpareek07/homebrew-devnotes/releases/download/v1.0.0/devnotes-linux_v1.0.0-arm64.tar.gz"
-      sha256 "7093f6643322a8c00a740e968163f5b3fcf03e212bc97fc9af38a94038d690d9"
+      url "https://github.com/Hpareek07/homebrew-devnotes/releases/download/v1.1.0/devnotes-v1.1.0-linux-arm64.tar.gz"
+      sha256 "e413576868c10991ee4f68ac7e22479249c7d4dad26b808163933eb859d2bbc0"
     else
-      url "https://github.com/Hpareek07/homebrew-devnotes/releases/download/v1.0.0/devnotes-linux_v1.0.0-amd64.tar.gz"
-      sha256 "aa8e02206586fdedbabf2260a504267416c2c59ba2ac7aded761d8b5fa9de421"
+      url "https://github.com/Hpareek07/homebrew-devnotes/releases/download/v1.1.0/devnotes-v1.1.0-linux-amd64.tar.gz"
+      sha256 "8dabf4c7a33229fd2e8bc7a54063b2430c9f165f4298bf84a48d977e9a2b6ec4"
     end
   end
 
