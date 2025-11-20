@@ -1,7 +1,7 @@
 class Devnotes < Formula
   desc "Developer-focused note-taking app"
   homepage "https://github.com/Hpareek07/devnotes"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
